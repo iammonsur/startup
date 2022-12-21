@@ -1,0 +1,91 @@
+/**
+*! style rules for sectionOne
+*/
+.sectionOne___left--text{
+    color: var(--color-white-75);
+    font-family: var(--font-2);
+    font-size: var(--body);
+    
+
+}
+
+.sectionOne___left--btn{
+    align-self: start;
+    margin-top: 20px;
+
+}
+/**
+*!style rules for section two
+**/
+sectionTwo__content-txt{
+    color: var(--color-black-75);
+    font-family: var(--font-2);
+    font-size: var(--sub);
+}
+.sectionTwo{
+    display:grid;
+    gap: 30px;
+    padding:40px 0;
+}
+.sectionTwo__logo{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    
+}
+.sectionTwo__logo img{
+    justify-self: center;
+   align-self: center;
+}
+
+.sectionTwo__btn{
+    justify-self: center;
+    margin-top: 20px;
+}
+/**
+*! styles rule for sectionThree
+**/
+sectionThree___right-text{
+    color: var(--color-dark-75);
+    font-family: var(--font-2);
+    font-size: var(--body);
+
+}
+
+.sectionThree__right-btn{
+    align-self: start;
+    margin-top: 20px;
+    background-color: rgba(0, 102, 255, 0.952);
+    border:none;
+    color: var(--color-white-100);
+    border-radius: 10px;
+    
+    cursor: pointer;
+    padding: 10px 40px;
+    font-size: var(--h5);
+    font-family:var(--font-2);
+   
+}
+/**
+*! styles rule for sectionFour
+**/
+.sectionFour__left-text{
+    font-family: var(--font-2);
+    color: var(--color-dark-75);
+    font-size: var(--body);
+    
+}
+.sectionFour__left-btn{
+    align-self: start;
+    margin-top: 20px;
+    background-color: rgba(0, 102, 255, 0.952);
+    border:none;
+    color: var(--color-white-100);
+    border-radius: 10px;
+    
+    cursor: pointer;
+    padding: 10px 40px;
+    font-size: var(--h5);
+    font-family:var(--font-2);
+}
+   
