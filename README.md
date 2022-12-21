@@ -1,2 +1,2 @@
 # startup
-this is my 2nd practical project
+https://iammonsur.github.io/startup/
